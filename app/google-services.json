@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "804467180080",
+    "firebase_url": "https://mindinstall-be577.firebaseio.com",
+    "project_id": "mindinstall-be577",
+    "storage_bucket": "mindinstall-be577.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804467180080:android:b4a373175276d3f2",
+        "android_client_info": {
+          "package_name": "com.example.sameer.mindinstall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "804467180080-qv2bguv726pd9jrge59cbo1m3uun7n6u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sameer.mindinstall",
+            "certificate_hash": "4a4289515546d16ca4a4d01a53eeaf0bb6b8cc87"
+          }
+        },
+        {
+          "client_id": "804467180080-g3cdta0lf90o96v826ucs3g534mbtm4q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXMiiPGqKUUFCZ5yIrBbn1RE6KHgHJwh0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "804467180080-g3cdta0lf90o96v826ucs3g534mbtm4q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
