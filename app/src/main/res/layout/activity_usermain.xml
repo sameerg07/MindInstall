@@ -7,19 +7,63 @@
     tools:context=".Usermain">
 
 
-        <ImageView
-            android:id="@+id/ibtn_home_bus"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/analytics"
-            />
+        <!--<ImageView-->
+            <!--android:id="@+id/ibtn_home_bus"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:src="@drawable/analytics"-->
+            <!--app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--app:layout_constraintTop_toTopOf="parent"-->
+            <!--app:layout_constraintVertical_bias="1.0"-->
+            <!--tools:layout_editor_absoluteX="0dp" />-->
 
 
-        <ImageView
-            android:id="@+id/ibtn_home_butoday"
-            android:layout_width="wrap_content"
-            android:layout_height="300dp"
-            android:src="@drawable/doctor"
-            />
+        <!--<ImageView-->
+            <!--android:id="@+id/ibtn_home_butoday"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="300dp"-->
+            <!--android:src="@drawable/doctor"-->
+            <!--tools:layout_editor_absoluteX="74dp"-->
+            <!--tools:layout_editor_absoluteY="62dp" />-->
 
+        <ImageButton
+            android:id="@+id/view_values_button"
+            android:layout_width="657dp"
+            android:layout_height="235dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/analytics" />
+
+        <ImageButton
+            android:id="@+id/send_values_button"
+            android:layout_width="370dp"
+            android:layout_height="256dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/doctor" />
 </android.support.constraint.ConstraintLayout>
